@@ -12,7 +12,7 @@ export const RepositoryItem = ({ repository }: Props) => {
       <div className="w-full flex items-center justify-between">
         <Link
           className="text-2xl font-semibold underline decoration-blue-500 text-blue-500 hover:text-blue-400 hover:decoration-blue-400"
-          href={{ pathname: repository.url }}
+          href={{ pathname: repository.html_url }}
           target="_blank"
         >
           {repository.full_name}
